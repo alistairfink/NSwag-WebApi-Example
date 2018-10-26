@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NSwag-WebApi-Example</name>
+    </assembly>
+    <members>
+        <member name="M:NSwag_WebApi_Example.Controllers.SimpleAPIController.Get">
+            <summary>
+            This is a test get.
+            </summary>
+            <returns>Some default response</returns>
+        </member>
+        <member name="M:NSwag_WebApi_Example.Controllers.SimpleAPIController.Post(NSwag_WebApi_Example.Models.SimpleRequest)">
+            <summary>
+            This is a test post.
+            </summary>
+            <param name="request">This is a request model.</param>
+            <returns>Some default response</returns>
+        </member>
+    </members>
+</doc>
