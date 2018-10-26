@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using NSwag.Annotations;
 using NSwag_WebApi_Example.Models;
+using NSwag_WebApi_Example.OperationProcs;
 using System;
 
 namespace NSwag_WebApi_Example.Controllers
@@ -33,6 +34,7 @@ namespace NSwag_WebApi_Example.Controllers
         /// <param name="request">This is a request model.</param>
         /// <returns>Some default response</returns>
         [HttpPost]
+        [SwaggerOperationProcessor(typeof(SimpleRequestOperationProc))]
         [SwaggerResponse(200, typeof(SimpleResponse))]
         [SwaggerResponse(404, typeof(void), Description = "This should never happen.")]
         public SimpleResponse Post([FromBody]SimpleRequest request)
