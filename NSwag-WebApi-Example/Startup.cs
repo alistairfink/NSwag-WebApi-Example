@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Newtonsoft.Json.Schema;
 using NJsonSchema;
 using NSwag.AspNetCore;
 using NSwag.SwaggerGeneration.Processors;

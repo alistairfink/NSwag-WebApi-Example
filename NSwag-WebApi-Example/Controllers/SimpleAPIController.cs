@@ -47,5 +47,23 @@ namespace NSwag_WebApi_Example.Controllers
                 UserID = request.ID.ToString()
             };
         }
+
+        /// <summary>
+        /// This is a test Get with id.
+        /// </summary>
+        /// <param name="simpleVar">This is a request string in the url</param>
+        /// <returns>Some default response</returns>
+        [HttpGet("{simpleVar}")]
+        [SwaggerOperationProcessor(typeof(SimpleResponseOperationProc))]
+        [SwaggerResponse(200, typeof(SimpleResponse))]
+        [SwaggerResponse(404, typeof(void), Description = "This should never happen.")]
+        public SimpleResponse GetOne(string simpleVar)
+        {
+            return new SimpleResponse
+            {
+                Message = "You sent " + simpleVar,
+                UserID = Guid.Empty.ToString()
+            };
+        }
     }
 }

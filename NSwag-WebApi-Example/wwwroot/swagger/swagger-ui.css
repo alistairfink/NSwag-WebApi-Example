@@ -11321,3 +11321,8 @@
 .swagger-ui .Resizer.vertical.disabled {
     display: none
 }
+
+.response-col_links {
+    visibility: hidden;
+    width: 1px;
+}

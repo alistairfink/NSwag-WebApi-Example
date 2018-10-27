@@ -17,5 +17,12 @@
             <param name="request">This is a request model.</param>
             <returns>Some default response</returns>
         </member>
+        <member name="M:NSwag_WebApi_Example.Controllers.SimpleAPIController.GetOne(System.String)">
+            <summary>
+            This is a test Get with id.
+            </summary>
+            <param name="simpleVar">This is a request string in the url</param>
+            <returns>Some default response</returns>
+        </member>
     </members>
 </doc>
