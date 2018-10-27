@@ -17,6 +17,7 @@ namespace NSwag_WebApi_Example.Controllers
         /// </summary>
         /// <returns>Some default response</returns>
         [HttpGet]
+        [SwaggerOperationProcessor(typeof(SimpleResponseOperationProc))]
         [SwaggerResponse(200, typeof(SimpleResponse))]
         [SwaggerResponse(404, typeof(void), Description = "This should never happen.")]
         public SimpleResponse Get()
@@ -35,6 +36,7 @@ namespace NSwag_WebApi_Example.Controllers
         /// <returns>Some default response</returns>
         [HttpPost]
         [SwaggerOperationProcessor(typeof(SimpleRequestOperationProc))]
+        [SwaggerOperationProcessor(typeof(SimpleResponseOperationProc))]
         [SwaggerResponse(200, typeof(SimpleResponse))]
         [SwaggerResponse(404, typeof(void), Description = "This should never happen.")]
         public SimpleResponse Post([FromBody]SimpleRequest request)

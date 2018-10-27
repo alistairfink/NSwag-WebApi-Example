@@ -22,12 +22,15 @@ namespace NSwag_WebApi_Example.OperationProcs
         {
             SwaggerOperation operation = context.OperationDescription.Operation;
             OpenApiMediaType mediaType = operation.RequestBody.Content.First().Value;
-
+            var test = operation.Responses.First().Value;
+            test.Examples = new SimpleResponse
+            {
+                Message = "test",
+                UserID = "test2"
+            };
             mediaType.Example = requestExample;
 
             return Task.FromResult(true);
         }
-
-        
     }
 }
