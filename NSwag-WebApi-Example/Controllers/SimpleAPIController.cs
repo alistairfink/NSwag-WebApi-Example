@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using NSwag.Annotations;
 using NSwag_WebApi_Example.Models;
-using NSwag_WebApi_Example.OperationProcs;
+using NSwag_WebApi_Example.OperationProcs.Requests;
+using NSwag_WebApi_Example.OperationProcs.Responses;
 using System;
 
 namespace NSwag_WebApi_Example.Controllers

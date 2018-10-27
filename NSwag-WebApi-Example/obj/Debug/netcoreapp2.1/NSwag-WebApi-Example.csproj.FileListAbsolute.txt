@@ -2,6 +2,8 @@ E:\AppDev\Github\NSwag-WebApi-Example\NSwag-WebApi-Example\bin\Debug\netcoreapp2
 E:\AppDev\Github\NSwag-WebApi-Example\NSwag-WebApi-Example\bin\Debug\netcoreapp2.1\NSwag-WebApi-Example.runtimeconfig.json
 E:\AppDev\Github\NSwag-WebApi-Example\NSwag-WebApi-Example\bin\Debug\netcoreapp2.1\NSwag-WebApi-Example.runtimeconfig.dev.json
 E:\AppDev\Github\NSwag-WebApi-Example\NSwag-WebApi-Example\bin\Debug\netcoreapp2.1\NSwag-WebApi-Example.dll
+E:\AppDev\Github\NSwag-WebApi-Example\NSwag-WebApi-Example\bin\Debug\netcoreapp2.1\NSwag-WebApi-Example.pdb
+E:\AppDev\Github\NSwag-WebApi-Example\NSwag-WebApi-Example\bin\Debug\netcoreapp2.1\NSwag-WebApi-Example.xml
 E:\AppDev\Github\NSwag-WebApi-Example\NSwag-WebApi-Example\obj\Debug\netcoreapp2.1\NSwag-WebApi-Example.csprojAssemblyReference.cache
 E:\AppDev\Github\NSwag-WebApi-Example\NSwag-WebApi-Example\obj\Debug\netcoreapp2.1\NSwag-WebApi-Example.csproj.CoreCompileInputs.cache
 E:\AppDev\Github\NSwag-WebApi-Example\NSwag-WebApi-Example\obj\Debug\netcoreapp2.1\NSwag-WebApi-Example.RazorAssemblyInfo.cache
@@ -9,7 +11,5 @@ E:\AppDev\Github\NSwag-WebApi-Example\NSwag-WebApi-Example\obj\Debug\netcoreapp2
 E:\AppDev\Github\NSwag-WebApi-Example\NSwag-WebApi-Example\obj\Debug\netcoreapp2.1\NSwag-WebApi-Example.AssemblyInfoInputs.cache
 E:\AppDev\Github\NSwag-WebApi-Example\NSwag-WebApi-Example\obj\Debug\netcoreapp2.1\NSwag-WebApi-Example.AssemblyInfo.cs
 E:\AppDev\Github\NSwag-WebApi-Example\NSwag-WebApi-Example\obj\Debug\netcoreapp2.1\NSwag-WebApi-Example.RazorTargetAssemblyInfo.cache
-E:\AppDev\Github\NSwag-WebApi-Example\NSwag-WebApi-Example\bin\Debug\netcoreapp2.1\NSwag-WebApi-Example.pdb
 E:\AppDev\Github\NSwag-WebApi-Example\NSwag-WebApi-Example\obj\Debug\netcoreapp2.1\NSwag-WebApi-Example.dll
 E:\AppDev\Github\NSwag-WebApi-Example\NSwag-WebApi-Example\obj\Debug\netcoreapp2.1\NSwag-WebApi-Example.pdb
-E:\AppDev\Github\NSwag-WebApi-Example\NSwag-WebApi-Example\bin\Debug\netcoreapp2.1\NSwag-WebApi-Example.xml

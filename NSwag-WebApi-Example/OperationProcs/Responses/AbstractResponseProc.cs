@@ -1,25 +1,26 @@
 ﻿using NSwag;
 using NSwag.SwaggerGeneration.Processors;
 using NSwag.SwaggerGeneration.Processors.Contexts;
-using NSwag_WebApi_Example.Models;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NSwag_WebApi_Example.OperationProcs
+namespace NSwag_WebApi_Example.OperationProcs.Responses
 {
-    public class SimpleResponseOperationProc : IOperationProcessor
+    public abstract class AbstractResponseProc : IOperationProcessor
     {
-        private SimpleResponse responseExample = new SimpleResponse
-        {
-            Message = "This is a test message.",
-            UserID = "User id goes here I guess"
-        };
+        private dynamic _responseObj;
 
+        public AbstractResponseProc(dynamic responseObj)
+        {
+            _responseObj = responseObj;
+        }
+        
         public Task<bool> ProcessAsync(OperationProcessorContext context)
         {
             SwaggerOperation operation = context.OperationDescription.Operation;
             var mediaType = operation.Responses.First().Value;
-            mediaType.Examples = responseExample;
+
+            mediaType.Examples = _responseObj;
 
             return Task.FromResult(true);
         }
